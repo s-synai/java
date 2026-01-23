@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner inn = new Scanner(System.in);
+    float a = inn.nextFloat();
+    System.out.printf("%.6f\n%.4f\n%.2f\n",a,a,a);
+    System.out.println((int)Math.round(a));
+    
+    }
+}
